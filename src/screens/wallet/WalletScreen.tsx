@@ -1,21 +1,17 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const ProfileScreen = () => {
-
+const WalletScreen = () => {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>This is the Profile Screen</Text>
-         
+            <Text style={styles.text} >WalletScreen</Text>
         </View>
     )
 }
 
-export default ProfileScreen
-
+export default WalletScreen
 
 const styles = StyleSheet.create({
-
     container: {
         flex: 1,
         alignItems: "center",
@@ -25,15 +21,4 @@ const styles = StyleSheet.create({
         fontSize: 24,
         marginBottom: 30
     },
-    buttonContainer: {
-        display: "flex",
-        justifyContent: "center",
-        flexDirection: "row",
-        gap: 20
-
-    },
-    button: {
-        paddingBlock: 10,
-        paddingInline: 15,
-    }
 })
