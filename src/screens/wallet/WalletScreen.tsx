@@ -4,7 +4,7 @@ import React from 'react'
 const WalletScreen = () => {
     return (
         <View style={styles.container}>
-            <Text style={styles.text} >WalletScreen</Text>
+            <Text style={styles.text} >This is the Wallet Screen</Text>
         </View>
     )
 }

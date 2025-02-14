@@ -3,8 +3,8 @@ import React from 'react'
 
 const ScanScreen = () => {
     return (
-        <View>
-            <Text>This is the ScanScreen</Text>
+        <View style={styles.container}>
+            <Text style={styles.text} >This is the ScanScreen</Text>
         </View>
     )
 }
